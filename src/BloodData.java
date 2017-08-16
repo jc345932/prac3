@@ -6,14 +6,23 @@
 public class BloodData {
     private String bloodType;
     private String rhFactor;
-    public BloodData(){
+
+    public BloodData() {
         bloodType = "O";
         rhFactor = "+";
     }
+
+    public BloodData(String ty, String fact) {
+      bloodType=ty;
+      rhFactor=fact;
+    }
+
     public String getBloodType(){
+
         return bloodType;
     }
     public String getRh(){
+
         return rhFactor;
     }
 }
