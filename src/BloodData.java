@@ -21,8 +21,14 @@ public class BloodData {
 
         return bloodType;
     }
+    public void setBloodType(String ty){
+        this.bloodType = ty;
+    }
     public String getRh(){
 
         return rhFactor;
+    }
+    public void setRhFactor(String fact){
+        this.rhFactor = fact;
     }
 }

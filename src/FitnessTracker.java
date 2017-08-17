@@ -12,11 +12,15 @@ public class FitnessTracker {
         minsSpent = 1;
         date = LocalDate.of(2017, 1,1);
     }
+    public FitnessTracker(String act,int min,LocalDate d){
+        activity = act;
+        minsSpent = min;
+        date = d;
+    }
     public String getActivity(){
 
         return activity;
     }
-
     public int getMinsSpent(){
 
         return minsSpent;

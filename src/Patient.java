@@ -18,9 +18,11 @@ public class Patient {
     }
 
     public String getIdNum(){
+
         return idNum;
     }
     public void setIdNum(String idNum){
+
         this.idNum = idNum;
     }
     public int getAge(){
@@ -28,13 +30,16 @@ public class Patient {
         return age;
     }
     public void setAge(int age){
+
         this.age = age;
     }
     public BloodData getBloodData(){
+
         return bloodData;
     }
-    public void setBloodType (BloodData b){
-        bloodData = b;
+    public void setBloodType (BloodData bd){
+
+        bloodData = bd;
     }
 
 }
